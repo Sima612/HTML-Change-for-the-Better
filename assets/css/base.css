@@ -11,32 +11,27 @@ body {
     flex-direction: column;
 }
 
-nav ul,
-.nav ul {
+nav ul {
     margin: 0;
     list-style-type: none;
 }
 
-nav li,
-.nav li {
+nav li {
     display: inline;
 }
 
-nav a,
-.nav a {
+nav a {
     color: white;
     text-decoration: underline;
     margin-right: 20px;
 }
 
-nav img,
-.nav img {
+nav img {
     float: left;
     margin-bottom: 6px;
 }
 
-main,
-.main {
+main {
     flex: 1 0 auto;
     margin: 0;
     padding: 25px 0;
@@ -52,21 +47,23 @@ form {
     padding: 10px;
 }
 
+legend {
+    font-weight: bold;
+}
+
 input,
 select,
 textarea {
     width: 100%;
 }
 
-section div,
-.section div {
+section div {
     display: inline-block;
     margin-right: 25px;
     font-weight: bold;
 }
 
-footer,
-.footer {
+footer{
     flex-shrink: 0;
     padding: 20px;
 }
